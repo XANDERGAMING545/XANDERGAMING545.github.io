@@ -36,19 +36,44 @@
   .boarder {
      border: 10px ridge orange;
   }
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+   /* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+} 
   </style>
    <body>
-     <ul>
-  <li><a href="#SUB">SUB</a></li>
-  <li><a href="#Clan Details">Clan Details</a></li>
-  <li><a href="#Clan Members">Clan Members</a></li>
-  <li><a href="https://vir0z4.ml/en/">vir0z4 WEB</a></li>
-</ul>
+     <div class="navbar">
+  <a href="#SUB">SUB</a></li>
+  <a href="#Clan Details">Clan Details</a></li>
+  <a href="#Clan Members">Clan Members</a></li>
+  <a href="https://vir0z4.ml/en/">vir0z4 WEB</a></li>
+</div>
+<div class="main">
 <div class="parallax"></div>
 
 <div class="boarder" style="height:400px;background-color:white;font-size:36px">
@@ -82,6 +107,6 @@ We look for SKILLS AND MATURITY !<br>
       </center>
       <p>CaptainSuperMA:60 WINS console:mobile & switch<br>Syn3rgy n0va:55 wins console:pc & switch(admin/leader)<br>syn3rgy roxg:around 20 wins console:pc & switch(co-admin)<br>syn3rgy wxlf: 20 wins console:ps4<br></p>
     
-    
+    </div>
   </body>
   </html>
