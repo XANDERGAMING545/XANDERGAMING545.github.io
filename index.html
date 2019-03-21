@@ -1,39 +1,10 @@
 <html>
   <head>
-    <title>Clan Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
+    <title>join our clan syn3rgy</title>
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bg {
+  .parallax {
   /* The image used */
-  background-image: url("data:image/jpeg;base64,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");
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-      h3 {
-        font-family:futura;
-        font-size:50px;
-        color:orange;
-      }
-      p {
-        font-family:monospace;
-        font-weight:bold;
-        font-size:25px;
-        color:red;
-  }
-    parallax {
-  /* The image used */
-  background-image: url("data:image/jpeg;base64,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");
+  background-image: url("img_parallax.jpg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -46,22 +17,14 @@ body, html {
 }
   </style>
    <body>
-     <div class="bg"></div>
-     <div class="parallax"></div>
+     <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
 
-<div style="height:350px;background-color:white;font-size:36px">
-     <center>
-       <h3>Join Our Clan</h3>
-        </center>
-       <p>Our discord:<a href="https://www.discord.me/Syn3rgy">Click Here</a><br>
-         Have FUN and tryout on our discord</p>
-     </div><center>
-           <div class="bg"></div>
-           <div class="parallax"></div>
-           <div style="height:350px;background-color:white;font-size:36px">
-           <h3>Our Crew Website</h3>
-           <a href="https://vir0z4.ml/fr/joueurs.html">click here</a>
-           </div>
-    
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:red;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
   </body>
   </html>
